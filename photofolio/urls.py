@@ -8,7 +8,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # Craftivo portfolio app (mounted at root)
-    path('', include('craftapp.urls', namespace='photofolio')),
+    path('', include('craftapp.urls', namespace='craftapp')),
 ]
 
 # Serve media and static files during development

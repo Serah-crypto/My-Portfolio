@@ -48,16 +48,16 @@
         <ul>
           <nav id="navmenu" class="navmenu">
   
-    <li><a href="{% url 'craftapp:index' %}#hero">Home</a></li>
-    <li><a href="{% url 'craftapp:index' %}#about">About</a></li>
-    <li><a href="{% url 'craftapp:index' %}#resume">Resume</a></li>
-    <li><a href="{% url 'craftapp:index' %}#services">Services</a></li>
-    <li><a href="{% url 'craftapp:index' %}#contact">Contact</a></li>
+<li><a href="{% url 'craftapp:index' %}">Home</a></li>
+<li><a href="{% url 'craftapp:about' %}">About</a></li>
+<li><a href="{% url 'craftapp:resume' %}">Resume</a></li>
+<li><a href="{% url 'craftapp:services' %}">Services</a></li>
+<li><a href="{% url 'craftapp:contact' %}">Contact</a></li>
   </ul>
 </nav>
 
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="about">Get Started</a>
 
     </div>
   </header>
@@ -66,7 +66,8 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img src="{% static 'assets/img/profile/profile-bg-5.webp' %}" alt="" data-aos="fade-in">
+          <div class="col-lg-8 text-center">
+      <img src="{% static 'assets/img/profile/649829921_4427124207532909_777798855340652008_n.jpg' %}" alt="" data-aos="fade-in">
       
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row justify-content-center">
